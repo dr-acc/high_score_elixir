@@ -18,7 +18,6 @@ defmodule HighScore do
   end
 
   def update_score(scores, name, score) do
-    testing_one_two = 3
     Map.update(scores, name, score, & &1 + score)
   end
 
